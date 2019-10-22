@@ -6,9 +6,10 @@ import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
 import { NavComponent } from "./nav/nav.component";
 import { ContentComponent } from "./content/content.component";
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, HttpClientModule],
   declarations: [AppComponent, HelloComponent, NavComponent, ContentComponent],
   bootstrap: [AppComponent]
 })

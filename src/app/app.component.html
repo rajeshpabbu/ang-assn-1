@@ -1,22 +1,4 @@
 <div class="d-flex" id="wrapper">
-  <!-- Sidebar -->
-  <div class="bg-light border-right" id="sidebar-wrapper">
-    <div class="sidebar-heading">Categories - List</div>
-    <div class="list-group list-group-flush">
-      <a class="list-group-item list-group-item-action bg-light">Category 1</a>
-      <a class="list-group-item list-group-item-action bg-light">Category 1</a>
-      <a class="list-group-item list-group-item-action bg-light">Category 1</a
-      ><a class="list-group-item list-group-item-action bg-light">Category 1</a>
-    </div>
-  </div>
-  <!-- /#sidebar-wrapper -->
-
-  <!-- Page Content -->
-  <div id="page-content-wrapper">
-    <div class="container-fluid">
-      Test123
-    </div>
-  </div>
-  <!-- /#page-content-wrapper -->
+  <app-nav [categories]="allCats"></app-nav>
+  <app-content></app-content>
 </div>
-<!-- /#wrapper -->
