@@ -1,15 +1,17 @@
-import { Component, OnInit, Input, EventEmitter, Output } from "@angular/core";
+import { Component, Input, EventEmitter, Output } from "@angular/core";
 
 @Component({
   selector: "app-nav",
   templateUrl: "./nav.component.html",
   styleUrls: ["./nav.component.css"]
 })
-export class NavComponent implements OnInit {
-  @Input() categories;
-  @Output() catSelected = new EventEmitter<boolean>();
+export class NavComponent {
+  @Input() categories: string[];
+  @Output() catSelected = new EventEmitter<string>();
+  selectedCat: string;
 
-  constructor() {}
-
-  ngOnInit() {}
+  selectCat(cat: string) {
+    this.selectedCat = cat;
+    this.catSelected.emit(this.selectedCat);
+  }
 }

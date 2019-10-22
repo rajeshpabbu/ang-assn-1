@@ -1,0 +1,7 @@
+.list-group a {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.list-group a.selected {
+  background-color: #dae0e5 !important;
+}

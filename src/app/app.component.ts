@@ -9,8 +9,11 @@ import { map } from "rxjs/operators";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent implements OnInit {
-  allArticles = [];
+  allArticles: Article[];
   allCats = [];
+  filteredArticles: Article[];
+  selectedCategory: string;
+
   constructor(private artService: ArticlesService) {}
 
   ngOnInit() {
@@ -37,5 +40,15 @@ export class AppComponent implements OnInit {
     });
 
     return catList;
+  }
+
+  updateContent(category: string) {
+    this.selectedCategory = category;
+
+    this.filteredArticles = this.allArticles.filter(
+      article => article.category === category
+    );
+
+    console.log(this.filteredArticles);
   }
 }

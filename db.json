@@ -2,13 +2,13 @@
   "articles": [
     {
       "id": 1,
-      "category": "sports",
-      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "category": "education",
+      "content": "As one of the most popular undergraduate majors, psychology can prepare students to be successful in many different careers — from the social sciences to business and beyond."
     },
     {
       "id": 2,
       "category": "health",
-      "content": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+      "content": "Health psychologists use psychological science to promote health, prevent illness and improve health care systems. They focus on how biological, social and psychological factors influence our choices about health."
     },
     {
       "id": 3,
@@ -23,7 +23,52 @@
     {
       "id": 5,
       "category": "health",
-      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "content": "Society for Health Psychology contributes to the understanding of health and illness and encourages the integration of biomedical information with current psychological knowledge."
+    },
+    {
+      "id": 6,
+      "category": "education",
+      "content": "Psychology's insights can help teachers manage behavior problems, motivate students, assist struggling learners, handle stress, support gifted and talented youth, and more."
+    },
+    {
+      "id": 12,
+      "category": "education",
+      "content": "Advanced degrees in psychology prepare students for careers as researchers, academics or licensed clinical psychologists, among many possibilities."
+    },
+    {
+      "id": 13,
+      "category": "sports",
+      "content": "Resources on sports and exercise topics like coaching and young athletes."
+    },
+    {
+      "id": 14,
+      "category": "sports",
+      "content": "Parents who value strenuous team sports are more likely to influence their children to join a team or at least participate in some kind of exercise, and spend less time in front of the TV or computer."
+    },
+    {
+      "id": 15,
+      "category": "education",
+      "content": "Programs available for CE and lifelong learning for psychologists and other mental health professionals; as well as, information for organizations to become APA-approved sponsors to offer CE programs."
+    },
+    {
+      "id": 25,
+      "category": "science",
+      "content": "The Science Directorate works to advance the discipline of psychological science and to represent and meet the needs of psychological scientists at all training and career stages. "
+    },
+    {
+      "id": 35,
+      "category": "science",
+      "content": "Dr. Athena Robinson, Chief Clinical Officer at Woebot Labs, talks about the"
+    },
+    {
+      "id": 45,
+      "category": "science",
+      "content": "The five candidates for the 2016 APA presidential election answered questions pertaining to the future of professional practice and the APA Practice Organization."
+    },
+    {
+      "id": 55,
+      "category": "science",
+      "content": "This is the APA Science directorate home page featuring new training opportunities, upcoming deadlines, newsletters and email lists links."
     }
   ]
 }

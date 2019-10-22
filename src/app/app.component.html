@@ -1,4 +1,10 @@
 <div class="d-flex" id="wrapper">
-  <app-nav [categories]="allCats"></app-nav>
-  <app-content></app-content>
+  <app-nav
+    [categories]="allCats"
+    (catSelected)="updateContent($event)"
+  ></app-nav>
+  <app-content
+    [articles]="filteredArticles"
+    [category]="selectedCategory"
+  ></app-content>
 </div>

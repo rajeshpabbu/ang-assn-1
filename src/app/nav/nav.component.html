@@ -2,9 +2,11 @@
   <div class="sidebar-heading">Categories - List</div>
   <div class="list-group list-group-flush">
     <a
-      *ngFor="let catrgory of categories"
+      (click)="selectCat(category)"
+      *ngFor="let category of categories"
+      [ngClass]="{ selected: category === selectedCat }"
       class="list-group-item list-group-item-action bg-light"
-      >{{ catrgory }}</a
+      >{{ category }}</a
     >
   </div>
 </div>
