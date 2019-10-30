@@ -39,5 +39,6 @@ You may use any css libraries for styling if you wish to, but the criteria for e
 6. The service is consumed from app-component only
 
 **References**
-[https://stackblitz.com/edit/ang-assn-1](https://stackblitz.com/edit/ang-assn-1)
-[https://ang-assn-1.stackblitz.io/️](https://ang-assn-1.stackblitz.io/)
+
+1. [https://stackblitz.com/edit/ang-assn-1](https://stackblitz.com/edit/ang-assn-1)
+2. [https://ang-assn-1.stackblitz.io/️](https://ang-assn-1.stackblitz.io/)
